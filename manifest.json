@@ -1,0 +1,27 @@
+{
+    "name": "Test-Source",
+    "last_updated": "123123",
+    "sources": [
+        {
+            "name": "source1",
+            "lang": "en",
+            "version": 1,
+            "url": "scripts/source1.js",
+            "icon": "icons/icon.png"
+        },
+        {
+            "name": "source2",
+            "lang": "en",
+            "version": 1,
+            "url": "scripts/source2.js",
+            "icon": "icons/icon.png"
+        },
+        {
+            "name": "source3",
+            "lang": "tl",
+            "version": 1,
+            "url": "scripts/source3.js",
+            "icon": "icons/icon.png"
+        }
+    ]
+}
