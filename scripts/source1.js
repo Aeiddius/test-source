@@ -1,14 +1,29 @@
+function getSources() {
+    return JSON.stringify([
+        {
+            name: "source1",
+            baseUrl: "https://example.com",
+            lang: "en",
+            version: 1
+        },
+        {
+            name: "source1 tl",
+            baseUrl: "https://fr.example.com",
+            lang: "fr",
+            version: 1
+        },
+    ])
+}
+
 
 class Source {
-    constructor() {
-        this.name = "source1";
-        this.baseUrl = "https://example.com";
-        this.lang = "en";
-        this.version = 1;
+    constructor(args) {
+        this.lang = args.lang || "en";
+        this.baseUrl = args.baseUrl
     }
 
-    getBrowse() {}
-    getChapters() {}
+    getBrowse(args) {}
+    getChapters(args) {}
     getNovel() {}
     getChapterContent() {}
 }
