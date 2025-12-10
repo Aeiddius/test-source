@@ -7,36 +7,27 @@
             "version": 1,
             "script": "source1.js",
             "icon": "icon.png",
-            "sources": {
-                "name": "source1",
-                "lang": "en",
-                "id": "2342354454",
-                "baseUrl": "https://try.com"
-            }
+            "lang": "en",
+            "id": "2342354454",
+            "baseUrl": "https://try.com"
         },
         {
             "name": "source2",
             "version": 1,
             "script": "source2.js",
             "icon": "icon.png",
-            "sources": {
-                "name": "source2",
-                "lang": "en",
-                "id": "2342354454",
-                "baseUrl": "https://test.net"
-            }
+            "lang": "en",
+            "id": "2342354454",
+            "baseUrl": "https://example.com"
         },
                 {
             "name": "source3",
             "version": 1,
             "script": "source3.js",
             "icon": "icon.png",
-            "sources": {
-                "name": "source3",
-                "lang": "tl",
-                "id": "2342354454",
-                "baseUrl": "https://tl.sample.net"
-            }
+            "lang": "en",
+            "id": "2342354454",
+            "baseUrl": "https://example.com"
         }
     ]
 }
