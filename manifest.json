@@ -3,13 +3,13 @@
     "last_updated": "123123",
     "packages": [
         {
-            "name": "source1",
+            "name": "Empire Novel",
             "version": 1,
-            "script": "source1.js",
+            "script": "EmpireNovel.js",
             "icon": "icon.png",
             "lang": "en",
             "id": "2342354454",
-            "baseUrl": "https://try.com"
+            "baseUrl": "https://www.empirenovel.com/"
         },
         {
             "name": "source2",
